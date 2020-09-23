@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[from apple]]>
+    </line>
+    <line>
+      <![CDATA[from banana]]>
+    </line>
+    <line>
+      <![CDATA[from grape]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="167" started-at="2020-09-10T21:56:15 IST" finished-at="2020-09-10T21:56:15 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="167" started-at="2020-09-10T21:56:15 IST" finished-at="2020-09-10T21:56:15 IST">
+      <class name="testing.p2">
+        <test-method status="PASS" signature="apple()[pri:0, instance:testing.p2@5a8e6209]" name="apple" duration-ms="23" started-at="2020-09-10T21:56:15 IST" finished-at="2020-09-10T21:56:15 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[from apple]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- apple -->
+        <test-method status="PASS" signature="banana()[pri:0, instance:testing.p2@5a8e6209]" name="banana" duration-ms="8" started-at="2020-09-10T21:56:15 IST" finished-at="2020-09-10T21:56:15 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[from banana]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- banana -->
+        <test-method status="PASS" signature="grape()[pri:0, instance:testing.p2@5a8e6209]" name="grape" duration-ms="7" started-at="2020-09-10T21:56:15 IST" finished-at="2020-09-10T21:56:15 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[from grape]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- grape -->
+      </class> <!-- testing.p2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
